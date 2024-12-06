@@ -2,9 +2,9 @@
 (function() {
   zuix.store('config', {
     "title": "News Blog",
-    "baseUrl": "/news-blog/",
+    "baseUrl": "/",
     "language": "en",
-    "resourcePath": "/news-blog/app/",
+    "resourcePath": "/app/",
     "libraryPath": {
       "@lib": "https://zuixjs.github.io/zkit/lib/1.2/",
       "@hgui": "https://genielabs.github.io/homegenie-web-ui/app/",
@@ -21,11 +21,4 @@
     },
     "siteMapUrl": "https://zuixjs.github.io/news-blog"
   });
-  // Check that service workers are registered
-  if ('serviceWorker' in navigator) {
-    // Use the window load event to keep the page load performant
-    window.addEventListener('load', () => {
-      navigator.serviceWorker.register('/news-blog/service-worker.js');
-    });
-  }
 })();

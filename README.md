@@ -1,6 +1,5 @@
 # News-Blog template
 
-
 A G-News alike web application template, featuring view pager with gesture, popup context menu, search page, bookmarks.  
 Implemented as Progressive Web App, with background service worker and other optimizations.  
 Suitable both for desktop and mobile.

@@ -75,7 +75,7 @@
       "language": "en",
       "resourcePath": "/app/",
       "libraryPath": {
-        "@lib": "https://zuixjs.github.io/zkit/lib/1.2/",
+        "@lib": "https://nulango.github.io/zkit/lib/1.2/",
         "@hgui": "https://genielabs.github.io/homegenie-web-ui/app/",
         "@cdnjs": "https://cdnjs.cloudflare.com/ajax/libs/"
       },
